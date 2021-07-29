@@ -13,8 +13,8 @@ if ((isset($_POST["spalva"]) && !empty($_POST["spalva"]))) {
     } else if ($spalva == "melyna") {
         $rezultatoKlase = "blue";
     } else if ($spalva != "juoda" || $spalva != "raudona" || $spalva != "melyna") {
-    $rezultatoKlase = $spalva;
-}
+        $rezultatoKlase = $spalva;
+    }
 }
 
 

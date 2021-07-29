@@ -23,7 +23,8 @@ if(isset($_GET["skaicius1"]) && !empty($_GET["skaicius1"]) && isset($_GET["zenkl
 
     } else {
         $neteisingasZenklas = "Neteisingai ivestas aritmetinis zenklas";
-        
+        echo "<input class='neaktyvus' disabled='true' value='".$neteisingasZenklas."' />";
+
     }
 
 }
@@ -31,4 +32,3 @@ if(isset($_GET["skaicius1"]) && !empty($_GET["skaicius1"]) && isset($_GET["zenkl
 
 ?>
 <input class='neaktyvus' disabled='true' value='<?php echo $suma; ?>' />
-<input class='neaktyvus' disabled='true' value='<?php echo $neteisingasZenklas; ?>' />
